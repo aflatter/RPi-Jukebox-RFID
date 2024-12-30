@@ -42,7 +42,7 @@ const CardsList = ({ cardsList }) => {
           primary={cardId}
           secondary={description}
         />
-      </ListItem>
+      </ListItemButton>
     );
   }
 
