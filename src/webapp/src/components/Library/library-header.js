@@ -72,7 +72,7 @@ const LibraryHeader = ({ handleMusicFilter, musicFilter }) => {
             direction="row"
             sx={{
               alignItems: "center",
-              marginRight: '5px'
+              marginRight: "5px"
             }}>
             <Typography
               sx={{

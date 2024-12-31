@@ -30,7 +30,7 @@ const SliderSetTimer = ({
       container
       sx={{
         alignItems: "center",
-        marginTop: '20px'
+        marginTop: "20px"
       }}>
       <Grid item xs={12}>
         <Typography>

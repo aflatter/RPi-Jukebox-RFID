@@ -55,7 +55,7 @@ const ControlsSelector = ({
         direction="row"
         sx={{
           alignItems: "center",
-          marginTop: '20px'
+          marginTop: "20px"
         }}>
         {actionData.action === 'host' &&
           <SelectHost

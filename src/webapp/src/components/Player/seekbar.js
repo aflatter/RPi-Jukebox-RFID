@@ -69,7 +69,7 @@ const SeekBar = () => {
       sx={{
         alignItems: "center",
         justifyContent: "space-between",
-        marginTop: '-10px'
+        marginTop: "-10px"
       }}>
       <Grid item>
         <Typography color="textSecondary">

@@ -77,7 +77,7 @@ const Volume = () => {
       container
       sx={{
         alignItems: "center",
-        width: '100%'
+        width: "100%"
       }}>
       <Grid item sx={{ marginRight: theme.spacing(1) }}>
         <IconButton
