@@ -8,4 +8,5 @@ COPY --chown=node:node ./src/webapp ./
 
 RUN npm install
 
-CMD ["npm", "start"]
+# This assumes that the `start` script in `package.json` invokes `vite`.
+CMD ["npm", "start", "--", "--host=0.0.0.0", "--port=3000", "--strictPort"]
